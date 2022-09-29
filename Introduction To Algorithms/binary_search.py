@@ -24,6 +24,6 @@ def verify(index):
     else:
         print("Target not found in list")
         
-numbers = [3,4,5,6,7,8,2,3,4,5]
+numbers = [1,2,3,4,5,6,7,8,9,10]
 result = binary_search(numbers, 4)
 verify(result)
